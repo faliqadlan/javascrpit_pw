@@ -10,18 +10,19 @@
             list-style-type: none;
         }
     </style>
-    <!-- <div id="chartContainer" style="width: 45%; height: 300px;display: inline-block;"></div> -->
+    <!-- <script src="harmonik.js"></script> -->
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 </head>
 <body>
         <ul>
             <li>
                 <label for="xmin">xmin</label>
-                <input type="text" name="xmin" id="xmin" value="-1">
+                <input type="text" name="xmin" id="xmin" value="-10">
             </li>
             <br>
             <li>
                 <label for="xmax">xmax</label>
-                <input type="text" name="xmax" id="xmax" value="1">
+                <input type="text" name="xmax" id="xmax" value="10">
             </li>
             <br>
             <li>
@@ -31,7 +32,7 @@
             <br>
             <li>
                 <label for="initE">initE</label>
-                <input type="text" name="initE" id="initE" value="0">
+                <input type="text" name="initE" id="initE" value="10">
             </li>
 
         </ul>
@@ -49,9 +50,9 @@
 
         <button type="submit" name="submit" id="submit" onclick= submit()>submit</button>
 
-    <div id = "Enew">
+    <div id = "Enew"></div>
 
-    <!-- </div>
+    </div>
     <br>
     <br>
     <div id="ef">
@@ -59,12 +60,13 @@
     <br>
     <br>
     <div id="pot">
-    </div> -->
+    </div>
 
-    <div id="chartContainer" style="height: 360px; width: 100%;"></div>
-    
+    <div id="chartContainer1" style="height: 360px; width: 100%;"></div>
+    <div id="chartContainer2" style="height: 360px; width: 100%;"></div>
+    <div id="chartContainer3" style="height: 360px; width: 100%;"></div>
     <script src="harmonik.js"></script>
     <script src="filter.js"></script>
-
+    <!-- <script src="harGraph.js"></script> -->
 </body>
 </html>
